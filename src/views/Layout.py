@@ -21,7 +21,7 @@ class Layout(QWidget, metaclass=MetaWidget):
 
     def _iniciarConfiguracion(self,tamanio_ventana):
         # Cargar archivo QSS si existe
-        with open(config.CSS_PATH + '/style.qss', 'r', encoding='utf-8') as f:
+        with open(os.path.join(config.CSS_PATH, 'style.qss'), 'r', encoding='utf-8') as f:
             self.setStyleSheet(f.read())
 
         # Configurar ventana
