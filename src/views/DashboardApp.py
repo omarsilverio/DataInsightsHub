@@ -15,10 +15,11 @@ class DashboardApp(Layout):
         QMessageBox.information(self, "Mensaje", "¡Hola! Has hecho clic en el botón.")
 
     def crearBoton(self):
-        boton = QPushButton("Haz clic aquí", self)
+        boton = QPushButton("Haz click aquí", self)
         boton.clicked.connect(self.onClick)
         boton.resize(150, 40)
         boton.move(75, 80)
 
     def construirDashboard(self):
         self.crearBoton()
+   
