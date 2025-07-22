@@ -34,3 +34,23 @@ QPushButton:hover {
 QPushButton:pressed {
     background-color: #360101ff;
 }
+
+QToolBar {
+    background-color: #3498db;  /* Azul */
+    color: white;
+    spacing: 10px;
+    padding: 5px;
+    border: none;
+}
+
+QToolButton {
+    color: white;  /* Color del texto del botón */
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+}
+
+
+QToolButton:hover {
+    background-color: #2980b9;  /* Azul más oscuro al pasar el cursor */
+}

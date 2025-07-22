@@ -26,6 +26,7 @@ raw_root = config['Paths'].get('root_dir', 'PROJECT_ROOT')
 ROOT_DIR = get_project_root() if raw_root == 'PROJECT_ROOT' else os.path.abspath(raw_root)
 
 CSS_PATH = os.path.join(ROOT_DIR, config['Paths']['css_dir'])
+IMG_PATH = os.path.join(ROOT_DIR, config['Paths']['img_dir'])
 
 # Otros valores
 APP_TITLE = config['General'].get('app_title', 'Mi Aplicación')
