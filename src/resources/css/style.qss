@@ -54,3 +54,14 @@ QToolButton {
 QToolButton:hover {
     background-color: #2980b9;  /* Azul más oscuro al pasar el cursor */
 }
+
+QPushButton#BotonMenuOption {
+    padding: 10px;
+    text-align: left;
+    background-color: #34495e;
+    border: none;
+}
+
+QPushButton#BotonMenuOption:hover {
+    background-color: #3d566e;
+}
